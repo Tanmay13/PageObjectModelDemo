@@ -18,7 +18,6 @@ public class LoginTest extends BaseTest{
 		LoginPage lp = home.goToLogin();
 		lp.doLogin(data.get("username"), data.get("password"));
 		Assert.fail("Login test failed");
-		System.out.println("Count should incress");
 	
 		
 	}
